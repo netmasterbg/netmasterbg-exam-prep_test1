@@ -56,3 +56,4 @@ jobs:
           service_id: ${{ secrets.MY_RENDER_SERVICE_ID }}
           api_key: ${{ secrets.MY_RENDER_API_KEY }}
           github_token: ${{ secrets.GH_TOKEN}}
+          wait_deploy: true
